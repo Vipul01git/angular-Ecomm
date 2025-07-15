@@ -1,0 +1,624 @@
+{
+  "seller": [
+    {
+      "id": "471b",
+      "name": "vipul pandey",
+      "email": "vrp@seller.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "efcb",
+      "name": "raj pandey",
+      "email": "raj@seller.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "2114",
+      "name": "rajesh",
+      "email": "rajesh@seller.com",
+      "password": "rajesh@123"
+    },
+    {
+      "id": "2f71",
+      "name": "ranjan",
+      "email": "ranjan@d.com",
+      "password": "123@abc"
+    },
+    {
+      "id": "9550",
+      "name": "rakesh",
+      "email": "rakesh.s.com",
+      "password": "123@abc"
+    },
+    {
+      "id": "85de",
+      "name": "raja",
+      "email": "raja@d.com",
+      "password": "123@abc"
+    },
+    {
+      "id": "53eb",
+      "name": "babayaga ",
+      "email": "babayaga@d.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "597c",
+      "name": "nm ",
+      "email": "amn xma",
+      "password": "M XMNS "
+    }
+  ],
+  "products": [
+    {
+      "id": "6ddb",
+      "name": "iphone 14",
+      "price": "100000",
+      "category": "Mobiles",
+      "color": "Black",
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505109_sd.jpg",
+      "description": "The iPhone 14 is expected to have the following features: 1)6.1-inch and 6.7-inch display sizes  2)Emergency SOS via satellite 3)Lightning port and notch remain 4)No SIM tray in the United States 5)A15 processor with 5-core GPU Prices start at $799"
+    },
+    {
+      "name": "Samsung Galaxy M40",
+      "price": "16000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://th.bing.com/th/id/R.e08147d69be61232b482ad21b4820d12?rik=tpf1oo1be%2fPHDA&riu=http%3a%2f%2fphonesdata.com%2ffiles%2fmodels%2fSamsung--Galaxy-M40-387.png&ehk=mv1%2f1Lppz5rk6mdwGUTFme8%2btxQNDIflmWXIDQX3uO4%3d&risl=&pid=ImgRaw&r=0",
+      "description": "Samsung Galaxy M40 (Midnight Blue, 128 GB) features and specifications include 6 GB RAM, 128 GB ROM, 3500 mAh battery, 32 MP back camera and MP front camera. Compare Galaxy M40 by price and performance",
+      "id": "ea89"
+    },
+    {
+      "name": "OnePlus 13 Pro  ",
+      "price": "75000",
+      "color": "White",
+      "category": "Mobile",
+      "image": "https://tiimg.tistatic.com/fp/1/007/499/oneplus-9rt-android-smart-phone-grey-color-8gb-ram-128gb-internal-with-octa-core-processor--652.jpg",
+      "description": "Overview:Once more, OnePlus strives to give speed and photography the balance they both desperately need. Keep your expectations high with the camera output, with the partnership with Hasselblad that’s sure to deliver. It’s a device made for consumers who appreciate minimal bloat, rapid charging, and an ultra responsive screen.",
+      "id": "2d8c"
+    },
+    {
+      "name": "Xiaomi Mi 15 Ultra",
+      "price": "70000",
+      "color": "Black",
+      "category": "Mobile",
+      "image": "https://tiimg.tistatic.com/fp/1/006/182/xiaomi-mi-pad-4-tablet-541.jpg",
+      "description": "Overview: Shenzhen-based Xiaomi has designed the flagship for camera professionals, with pro-grade photography modes powered by Leica lenses. Considering the rapid charging and powerful internals, this flagship can remain an all-time favorite for visual creators and high-performance users.",
+      "id": "b8d4"
+    },
+    {
+      "name": "Samsung Galaxy Z Fold 7",
+      "price": "150000",
+      "color": "Black",
+      "category": "Mobile",
+      "image": "https://tiimg.tistatic.com/fp/1/009/229/new-samsung-galaxy-z-fold-4-and-5-5g-smartphone-186.jpg",
+      "description": "Overview: Samsung has been a dominant player in the foldable segment, and the Fold 7 is yet another from them. The enhanced durability of the hinge alongside the camera that’s concealed under the display shows just how advanced the tech is getting. This device is perfect for multitaskers and working professionals on the go.",
+      "id": "4be6"
+    },
+    {
+      "name": "Realme GT 4 Pro",
+      "price": "60000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://tiimg.tistatic.com/fp/1/007/644/new-model-5-99-inch-fhd-display-and-8gb-internal-storage-android-9-pie-realme-x-smart-phone-301.jpg",
+      "description": "Overview: Focused on gamers and heavy users, the GT 4 Pro provides speed along with smooth visuals due to its 144Hz display. The value provided makes it a wise selection for budget seekers, especially with the price vs performance ratio.",
+      "id": "c2dc"
+    },
+    {
+      "name": "Google Pixel 10 Pro  ",
+      "price": "85000",
+      "color": "Black",
+      "category": "Mobile",
+      "image": "https://cpimg.tistatic.com/07763785/b/4/Google-Pixel-5-5g-128gb-smart-phone.jpg",
+      "description": "Overview: When compared to other smartphone brands, Pixel devices stand out thanks to their software-first approach. The Pixel 10 Pro is rumored to offer even more AI features for voice commands, photos, and multitasking. A streamlined UI combined with extended software support remain unbeatable selling points for the Pixel lineup",
+      "id": "09ca"
+    },
+    {
+      "name": "Nothing Phone (3)  ",
+      "price": "45000",
+      "color": "Black",
+      "category": "Mobile",
+      "image": "https://www.tradeindia.com/blog/content/images/2025/05/nothing-phone-1-case-948-3.jpg",
+      "description": "Overview: Nothing focuses on the user experience and performance with Phone (3). Though not a flagship killer, the Phone (3) retains the brand's signature design, great for users seeking a visually striking device that performs well for daily tasks.",
+      "id": "0ca7"
+    },
+    {
+      "id": "7c50",
+      "name": "iphone 14",
+      "price": "100000",
+      "category": "Mobiles",
+      "color": "Black",
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505109_sd.jpg",
+      "description": "The iPhone 14 is expected to have the following features: 1)6.1-inch and 6.7-inch display sizes  2)Emergency SOS via satellite 3)Lightning port and notch remain 4)No SIM tray in the United States 5)A15 processor with 5-core GPU Prices start at $799",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "6ddb"
+    },
+    {
+      "id": "3c64",
+      "name": "iphone 14",
+      "price": "100000",
+      "category": "Mobiles",
+      "color": "Black",
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505109_sd.jpg",
+      "description": "The iPhone 14 is expected to have the following features: 1)6.1-inch and 6.7-inch display sizes  2)Emergency SOS via satellite 3)Lightning port and notch remain 4)No SIM tray in the United States 5)A15 processor with 5-core GPU Prices start at $799",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "6ddb"
+    },
+    {
+      "id": "64b9",
+      "name": "Samsung Galaxy M40",
+      "price": "16000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://th.bing.com/th/id/R.e08147d69be61232b482ad21b4820d12?rik=tpf1oo1be%2fPHDA&riu=http%3a%2f%2fphonesdata.com%2ffiles%2fmodels%2fSamsung--Galaxy-M40-387.png&ehk=mv1%2f1Lppz5rk6mdwGUTFme8%2btxQNDIflmWXIDQX3uO4%3d&risl=&pid=ImgRaw&r=0",
+      "description": "Samsung Galaxy M40 (Midnight Blue, 128 GB) features and specifications include 6 GB RAM, 128 GB ROM, 3500 mAh battery, 32 MP back camera and MP front camera. Compare Galaxy M40 by price and performance",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "ea89"
+    },
+    {
+      "id": "1b7f",
+      "name": "OnePlus 13 Pro  ",
+      "price": "75000",
+      "color": "White",
+      "category": "Mobile",
+      "image": "https://tiimg.tistatic.com/fp/1/007/499/oneplus-9rt-android-smart-phone-grey-color-8gb-ram-128gb-internal-with-octa-core-processor--652.jpg",
+      "description": "Overview:Once more, OnePlus strives to give speed and photography the balance they both desperately need. Keep your expectations high with the camera output, with the partnership with Hasselblad that’s sure to deliver. It’s a device made for consumers who appreciate minimal bloat, rapid charging, and an ultra responsive screen.",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "2d8c"
+    },
+    {
+      "id": "5885",
+      "name": "Samsung Galaxy M40",
+      "price": "16000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://th.bing.com/th/id/R.e08147d69be61232b482ad21b4820d12?rik=tpf1oo1be%2fPHDA&riu=http%3a%2f%2fphonesdata.com%2ffiles%2fmodels%2fSamsung--Galaxy-M40-387.png&ehk=mv1%2f1Lppz5rk6mdwGUTFme8%2btxQNDIflmWXIDQX3uO4%3d&risl=&pid=ImgRaw&r=0",
+      "description": "Samsung Galaxy M40 (Midnight Blue, 128 GB) features and specifications include 6 GB RAM, 128 GB ROM, 3500 mAh battery, 32 MP back camera and MP front camera. Compare Galaxy M40 by price and performance",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "ea89"
+    },
+    {
+      "id": "c790",
+      "name": "Samsung Galaxy M40",
+      "price": "16000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://th.bing.com/th/id/R.e08147d69be61232b482ad21b4820d12?rik=tpf1oo1be%2fPHDA&riu=http%3a%2f%2fphonesdata.com%2ffiles%2fmodels%2fSamsung--Galaxy-M40-387.png&ehk=mv1%2f1Lppz5rk6mdwGUTFme8%2btxQNDIflmWXIDQX3uO4%3d&risl=&pid=ImgRaw&r=0",
+      "description": "Samsung Galaxy M40 (Midnight Blue, 128 GB) features and specifications include 6 GB RAM, 128 GB ROM, 3500 mAh battery, 32 MP back camera and MP front camera. Compare Galaxy M40 by price and performance",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "ea89"
+    },
+    {
+      "id": "84cf",
+      "name": "Samsung Galaxy M40",
+      "price": "16000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://th.bing.com/th/id/R.e08147d69be61232b482ad21b4820d12?rik=tpf1oo1be%2fPHDA&riu=http%3a%2f%2fphonesdata.com%2ffiles%2fmodels%2fSamsung--Galaxy-M40-387.png&ehk=mv1%2f1Lppz5rk6mdwGUTFme8%2btxQNDIflmWXIDQX3uO4%3d&risl=&pid=ImgRaw&r=0",
+      "description": "Samsung Galaxy M40 (Midnight Blue, 128 GB) features and specifications include 6 GB RAM, 128 GB ROM, 3500 mAh battery, 32 MP back camera and MP front camera. Compare Galaxy M40 by price and performance",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "ea89"
+    },
+    {
+      "id": "df1b",
+      "name": "Samsung Galaxy M40",
+      "price": "16000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://th.bing.com/th/id/R.e08147d69be61232b482ad21b4820d12?rik=tpf1oo1be%2fPHDA&riu=http%3a%2f%2fphonesdata.com%2ffiles%2fmodels%2fSamsung--Galaxy-M40-387.png&ehk=mv1%2f1Lppz5rk6mdwGUTFme8%2btxQNDIflmWXIDQX3uO4%3d&risl=&pid=ImgRaw&r=0",
+      "description": "Samsung Galaxy M40 (Midnight Blue, 128 GB) features and specifications include 6 GB RAM, 128 GB ROM, 3500 mAh battery, 32 MP back camera and MP front camera. Compare Galaxy M40 by price and performance",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "ea89"
+    },
+    {
+      "id": "e4ed",
+      "name": "Samsung Galaxy M40",
+      "price": "16000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://th.bing.com/th/id/R.e08147d69be61232b482ad21b4820d12?rik=tpf1oo1be%2fPHDA&riu=http%3a%2f%2fphonesdata.com%2ffiles%2fmodels%2fSamsung--Galaxy-M40-387.png&ehk=mv1%2f1Lppz5rk6mdwGUTFme8%2btxQNDIflmWXIDQX3uO4%3d&risl=&pid=ImgRaw&r=0",
+      "description": "Samsung Galaxy M40 (Midnight Blue, 128 GB) features and specifications include 6 GB RAM, 128 GB ROM, 3500 mAh battery, 32 MP back camera and MP front camera. Compare Galaxy M40 by price and performance",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "ea89"
+    },
+    {
+      "id": "d657",
+      "name": "Samsung Galaxy M40",
+      "price": "16000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://th.bing.com/th/id/R.e08147d69be61232b482ad21b4820d12?rik=tpf1oo1be%2fPHDA&riu=http%3a%2f%2fphonesdata.com%2ffiles%2fmodels%2fSamsung--Galaxy-M40-387.png&ehk=mv1%2f1Lppz5rk6mdwGUTFme8%2btxQNDIflmWXIDQX3uO4%3d&risl=&pid=ImgRaw&r=0",
+      "description": "Samsung Galaxy M40 (Midnight Blue, 128 GB) features and specifications include 6 GB RAM, 128 GB ROM, 3500 mAh battery, 32 MP back camera and MP front camera. Compare Galaxy M40 by price and performance",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "ea89"
+    },
+    {
+      "id": "41b8",
+      "name": "Samsung Galaxy M40",
+      "price": "16000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://th.bing.com/th/id/R.e08147d69be61232b482ad21b4820d12?rik=tpf1oo1be%2fPHDA&riu=http%3a%2f%2fphonesdata.com%2ffiles%2fmodels%2fSamsung--Galaxy-M40-387.png&ehk=mv1%2f1Lppz5rk6mdwGUTFme8%2btxQNDIflmWXIDQX3uO4%3d&risl=&pid=ImgRaw&r=0",
+      "description": "Samsung Galaxy M40 (Midnight Blue, 128 GB) features and specifications include 6 GB RAM, 128 GB ROM, 3500 mAh battery, 32 MP back camera and MP front camera. Compare Galaxy M40 by price and performance",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "ea89"
+    },
+    {
+      "id": "c53a",
+      "name": "Samsung Galaxy M40",
+      "price": "16000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://th.bing.com/th/id/R.e08147d69be61232b482ad21b4820d12?rik=tpf1oo1be%2fPHDA&riu=http%3a%2f%2fphonesdata.com%2ffiles%2fmodels%2fSamsung--Galaxy-M40-387.png&ehk=mv1%2f1Lppz5rk6mdwGUTFme8%2btxQNDIflmWXIDQX3uO4%3d&risl=&pid=ImgRaw&r=0",
+      "description": "Samsung Galaxy M40 (Midnight Blue, 128 GB) features and specifications include 6 GB RAM, 128 GB ROM, 3500 mAh battery, 32 MP back camera and MP front camera. Compare Galaxy M40 by price and performance",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "ea89"
+    },
+    {
+      "id": "25b4",
+      "name": "Samsung Galaxy M40",
+      "price": "16000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://th.bing.com/th/id/R.e08147d69be61232b482ad21b4820d12?rik=tpf1oo1be%2fPHDA&riu=http%3a%2f%2fphonesdata.com%2ffiles%2fmodels%2fSamsung--Galaxy-M40-387.png&ehk=mv1%2f1Lppz5rk6mdwGUTFme8%2btxQNDIflmWXIDQX3uO4%3d&risl=&pid=ImgRaw&r=0",
+      "description": "Samsung Galaxy M40 (Midnight Blue, 128 GB) features and specifications include 6 GB RAM, 128 GB ROM, 3500 mAh battery, 32 MP back camera and MP front camera. Compare Galaxy M40 by price and performance",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "ea89"
+    },
+    {
+      "id": "e8e0",
+      "name": "Samsung Galaxy M40",
+      "price": "16000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://th.bing.com/th/id/R.e08147d69be61232b482ad21b4820d12?rik=tpf1oo1be%2fPHDA&riu=http%3a%2f%2fphonesdata.com%2ffiles%2fmodels%2fSamsung--Galaxy-M40-387.png&ehk=mv1%2f1Lppz5rk6mdwGUTFme8%2btxQNDIflmWXIDQX3uO4%3d&risl=&pid=ImgRaw&r=0",
+      "description": "Samsung Galaxy M40 (Midnight Blue, 128 GB) features and specifications include 6 GB RAM, 128 GB ROM, 3500 mAh battery, 32 MP back camera and MP front camera. Compare Galaxy M40 by price and performance",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "ea89"
+    },
+    {
+      "id": "c156",
+      "name": "Samsung Galaxy M40",
+      "price": "16000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://th.bing.com/th/id/R.e08147d69be61232b482ad21b4820d12?rik=tpf1oo1be%2fPHDA&riu=http%3a%2f%2fphonesdata.com%2ffiles%2fmodels%2fSamsung--Galaxy-M40-387.png&ehk=mv1%2f1Lppz5rk6mdwGUTFme8%2btxQNDIflmWXIDQX3uO4%3d&risl=&pid=ImgRaw&r=0",
+      "description": "Samsung Galaxy M40 (Midnight Blue, 128 GB) features and specifications include 6 GB RAM, 128 GB ROM, 3500 mAh battery, 32 MP back camera and MP front camera. Compare Galaxy M40 by price and performance",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "ea89"
+    },
+    {
+      "id": "b163",
+      "name": "Realme GT 4 Pro",
+      "price": "60000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://tiimg.tistatic.com/fp/1/007/644/new-model-5-99-inch-fhd-display-and-8gb-internal-storage-android-9-pie-realme-x-smart-phone-301.jpg",
+      "description": "Overview: Focused on gamers and heavy users, the GT 4 Pro provides speed along with smooth visuals due to its 144Hz display. The value provided makes it a wise selection for budget seekers, especially with the price vs performance ratio.",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "c2dc"
+    },
+    {
+      "id": "6897",
+      "name": "Realme GT 4 Pro",
+      "price": "60000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://tiimg.tistatic.com/fp/1/007/644/new-model-5-99-inch-fhd-display-and-8gb-internal-storage-android-9-pie-realme-x-smart-phone-301.jpg",
+      "description": "Overview: Focused on gamers and heavy users, the GT 4 Pro provides speed along with smooth visuals due to its 144Hz display. The value provided makes it a wise selection for budget seekers, especially with the price vs performance ratio.",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "c2dc"
+    },
+    {
+      "id": "f854",
+      "name": "iphone 14",
+      "price": "100000",
+      "category": "Mobiles",
+      "color": "Black",
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505109_sd.jpg",
+      "description": "The iPhone 14 is expected to have the following features: 1)6.1-inch and 6.7-inch display sizes  2)Emergency SOS via satellite 3)Lightning port and notch remain 4)No SIM tray in the United States 5)A15 processor with 5-core GPU Prices start at $799",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "6ddb"
+    },
+    {
+      "id": "a221",
+      "name": "iphone 14",
+      "price": "100000",
+      "category": "Mobiles",
+      "color": "Black",
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505109_sd.jpg",
+      "description": "The iPhone 14 is expected to have the following features: 1)6.1-inch and 6.7-inch display sizes  2)Emergency SOS via satellite 3)Lightning port and notch remain 4)No SIM tray in the United States 5)A15 processor with 5-core GPU Prices start at $799",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "6ddb"
+    },
+    {
+      "id": "5dff",
+      "name": "iphone 14",
+      "price": "100000",
+      "category": "Mobiles",
+      "color": "Black",
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505109_sd.jpg",
+      "description": "The iPhone 14 is expected to have the following features: 1)6.1-inch and 6.7-inch display sizes  2)Emergency SOS via satellite 3)Lightning port and notch remain 4)No SIM tray in the United States 5)A15 processor with 5-core GPU Prices start at $799",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "6ddb"
+    },
+    {
+      "id": "d5df",
+      "name": "Samsung Galaxy M40",
+      "price": "16000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://th.bing.com/th/id/R.e08147d69be61232b482ad21b4820d12?rik=tpf1oo1be%2fPHDA&riu=http%3a%2f%2fphonesdata.com%2ffiles%2fmodels%2fSamsung--Galaxy-M40-387.png&ehk=mv1%2f1Lppz5rk6mdwGUTFme8%2btxQNDIflmWXIDQX3uO4%3d&risl=&pid=ImgRaw&r=0",
+      "description": "Samsung Galaxy M40 (Midnight Blue, 128 GB) features and specifications include 6 GB RAM, 128 GB ROM, 3500 mAh battery, 32 MP back camera and MP front camera. Compare Galaxy M40 by price and performance",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "ea89"
+    },
+    {
+      "id": "d5fa",
+      "name": "iphone 14",
+      "price": "100000",
+      "category": "Mobiles",
+      "color": "Black",
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505109_sd.jpg",
+      "description": "The iPhone 14 is expected to have the following features: 1)6.1-inch and 6.7-inch display sizes  2)Emergency SOS via satellite 3)Lightning port and notch remain 4)No SIM tray in the United States 5)A15 processor with 5-core GPU Prices start at $799",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "6ddb"
+    },
+    {
+      "id": "4d79",
+      "name": "iphone 14",
+      "price": "100000",
+      "category": "Mobiles",
+      "color": "Black",
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505109_sd.jpg",
+      "description": "The iPhone 14 is expected to have the following features: 1)6.1-inch and 6.7-inch display sizes  2)Emergency SOS via satellite 3)Lightning port and notch remain 4)No SIM tray in the United States 5)A15 processor with 5-core GPU Prices start at $799",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "6ddb"
+    },
+    {
+      "id": "04a9",
+      "name": "iphone 14",
+      "price": "100000",
+      "category": "Mobiles",
+      "color": "Black",
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505109_sd.jpg",
+      "description": "The iPhone 14 is expected to have the following features: 1)6.1-inch and 6.7-inch display sizes  2)Emergency SOS via satellite 3)Lightning port and notch remain 4)No SIM tray in the United States 5)A15 processor with 5-core GPU Prices start at $799",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "6ddb"
+    },
+    {
+      "id": "9863",
+      "name": "Samsung Galaxy Z Fold 7",
+      "price": "150000",
+      "color": "Black",
+      "category": "Mobile",
+      "image": "https://tiimg.tistatic.com/fp/1/009/229/new-samsung-galaxy-z-fold-4-and-5-5g-smartphone-186.jpg",
+      "description": "Overview: Samsung has been a dominant player in the foldable segment, and the Fold 7 is yet another from them. The enhanced durability of the hinge alongside the camera that’s concealed under the display shows just how advanced the tech is getting. This device is perfect for multitaskers and working professionals on the go.",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "4be6"
+    },
+    {
+      "id": "1949",
+      "name": "Samsung Galaxy Z Fold 7",
+      "price": "150000",
+      "color": "Black",
+      "category": "Mobile",
+      "image": "https://tiimg.tistatic.com/fp/1/009/229/new-samsung-galaxy-z-fold-4-and-5-5g-smartphone-186.jpg",
+      "description": "Overview: Samsung has been a dominant player in the foldable segment, and the Fold 7 is yet another from them. The enhanced durability of the hinge alongside the camera that’s concealed under the display shows just how advanced the tech is getting. This device is perfect for multitaskers and working professionals on the go.",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "4be6"
+    },
+    {
+      "id": "5a8d",
+      "name": "Samsung Galaxy Z Fold 7",
+      "price": "150000",
+      "color": "Black",
+      "category": "Mobile",
+      "image": "https://tiimg.tistatic.com/fp/1/009/229/new-samsung-galaxy-z-fold-4-and-5-5g-smartphone-186.jpg",
+      "description": "Overview: Samsung has been a dominant player in the foldable segment, and the Fold 7 is yet another from them. The enhanced durability of the hinge alongside the camera that’s concealed under the display shows just how advanced the tech is getting. This device is perfect for multitaskers and working professionals on the go.",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "4be6"
+    },
+    {
+      "id": "5da5",
+      "name": "Samsung Galaxy Z Fold 7",
+      "price": "150000",
+      "color": "Black",
+      "category": "Mobile",
+      "image": "https://tiimg.tistatic.com/fp/1/009/229/new-samsung-galaxy-z-fold-4-and-5-5g-smartphone-186.jpg",
+      "description": "Overview: Samsung has been a dominant player in the foldable segment, and the Fold 7 is yet another from them. The enhanced durability of the hinge alongside the camera that’s concealed under the display shows just how advanced the tech is getting. This device is perfect for multitaskers and working professionals on the go.",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "4be6"
+    },
+    {
+      "id": "ccf4",
+      "name": "Samsung Galaxy Z Fold 7",
+      "price": "150000",
+      "color": "Black",
+      "category": "Mobile",
+      "image": "https://tiimg.tistatic.com/fp/1/009/229/new-samsung-galaxy-z-fold-4-and-5-5g-smartphone-186.jpg",
+      "description": "Overview: Samsung has been a dominant player in the foldable segment, and the Fold 7 is yet another from them. The enhanced durability of the hinge alongside the camera that’s concealed under the display shows just how advanced the tech is getting. This device is perfect for multitaskers and working professionals on the go.",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "4be6"
+    },
+    {
+      "id": "b8bf",
+      "name": "Realme GT 4 Pro",
+      "price": "60000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://tiimg.tistatic.com/fp/1/007/644/new-model-5-99-inch-fhd-display-and-8gb-internal-storage-android-9-pie-realme-x-smart-phone-301.jpg",
+      "description": "Overview: Focused on gamers and heavy users, the GT 4 Pro provides speed along with smooth visuals due to its 144Hz display. The value provided makes it a wise selection for budget seekers, especially with the price vs performance ratio.",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "c2dc"
+    },
+    {
+      "id": "305c",
+      "name": "Realme GT 4 Pro",
+      "price": "60000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://tiimg.tistatic.com/fp/1/007/644/new-model-5-99-inch-fhd-display-and-8gb-internal-storage-android-9-pie-realme-x-smart-phone-301.jpg",
+      "description": "Overview: Focused on gamers and heavy users, the GT 4 Pro provides speed along with smooth visuals due to its 144Hz display. The value provided makes it a wise selection for budget seekers, especially with the price vs performance ratio.",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "c2dc"
+    },
+    {
+      "id": "bafe",
+      "name": "Realme GT 4 Pro",
+      "price": "60000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://tiimg.tistatic.com/fp/1/007/644/new-model-5-99-inch-fhd-display-and-8gb-internal-storage-android-9-pie-realme-x-smart-phone-301.jpg",
+      "description": "Overview: Focused on gamers and heavy users, the GT 4 Pro provides speed along with smooth visuals due to its 144Hz display. The value provided makes it a wise selection for budget seekers, especially with the price vs performance ratio.",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "c2dc"
+    }
+  ],
+  "users": [
+    {
+      "id": "4710",
+      "name": "vipul pandey",
+      "email": "vrp@user.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "d1ef",
+      "name": "raju",
+      "email": "raju@user.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "f2d6",
+      "name": "vipul pandey",
+      "email": "vrp@user.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "bb47",
+      "name": "",
+      "email": "vrpg, as,ck",
+      "password": "jsnjkanknk"
+    },
+    {
+      "id": "391a",
+      "name": "",
+      "email": "VFGDSFSF",
+      "password": "DFSFEQFW"
+    },
+    {
+      "id": "5bf0",
+      "name": "vipul pandey",
+      "email": "vrp@seller.com",
+      "password": "abc@12345"
+    }
+  ],
+  "cart": [
+    {
+      "id": "4a81",
+      "name": "Realme GT 4 Pro",
+      "price": "60000",
+      "color": "Blue",
+      "category": "Mobile",
+      "image": "https://tiimg.tistatic.com/fp/1/007/644/new-model-5-99-inch-fhd-display-and-8gb-internal-storage-android-9-pie-realme-x-smart-phone-301.jpg",
+      "description": "Overview: Focused on gamers and heavy users, the GT 4 Pro provides speed along with smooth visuals due to its 144Hz display. The value provided makes it a wise selection for budget seekers, especially with the price vs performance ratio.",
+      "quantity": 1,
+      "productId": "c2dc",
+      "userId": null
+    },
+    {
+      "id": "98e2",
+      "name": "Google Pixel 10 Pro  ",
+      "price": "85000",
+      "color": "Black",
+      "category": "Mobile",
+      "image": "https://cpimg.tistatic.com/07763785/b/4/Google-Pixel-5-5g-128gb-smart-phone.jpg",
+      "description": "Overview: When compared to other smartphone brands, Pixel devices stand out thanks to their software-first approach. The Pixel 10 Pro is rumored to offer even more AI features for voice commands, photos, and multitasking. A streamlined UI combined with extended software support remain unbeatable selling points for the Pixel lineup",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "09ca"
+    },
+    {
+      "id": "ea82",
+      "name": "Xiaomi Mi 15 Ultra",
+      "price": "70000",
+      "color": "Black",
+      "category": "Mobile",
+      "image": "https://tiimg.tistatic.com/fp/1/006/182/xiaomi-mi-pad-4-tablet-541.jpg",
+      "description": "Overview: Shenzhen-based Xiaomi has designed the flagship for camera professionals, with pro-grade photography modes powered by Leica lenses. Considering the rapid charging and powerful internals, this flagship can remain an all-time favorite for visual creators and high-performance users.",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "b8d4"
+    },
+    {
+      "id": "085e",
+      "name": "Nothing Phone (3)  ",
+      "price": "45000",
+      "color": "Black",
+      "category": "Mobile",
+      "image": "https://www.tradeindia.com/blog/content/images/2025/05/nothing-phone-1-case-948-3.jpg",
+      "description": "Overview: Nothing focuses on the user experience and performance with Phone (3). Though not a flagship killer, the Phone (3) retains the brand's signature design, great for users seeking a visually striking device that performs well for daily tasks.",
+      "quantity": 1,
+      "userId": "4710",
+      "productId": "0ca7"
+    }
+  ],
+  "orders": [
+    {
+      "id": "7be3",
+      "email": "vrp@seller.com",
+      "address": "noida sec x",
+      "contact": "99887766",
+      "totalPrice": 226045,
+      "userId": "4710"
+    },
+    {
+      "id": "dfe9",
+      "email": "vrp@seller.com",
+      "address": "noida sec x",
+      "contact": "99887766",
+      "totalPrice": 226045,
+      "userId": "4710"
+    },
+    {
+      "id": "b2e9",
+      "email": "vrp@seller.com",
+      "address": "noida sec x",
+      "contact": "99887766",
+      "totalPrice": 226045,
+      "userId": "4710"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+.my-orders{
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+.my-orders .order-img{
+    width: 100px;
+    height: 100px;
+
+}
+.order-data{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid #ddd;
+}
+.form-button{
+    width: 150px;
+}
+.my-orders{
+    margin-bottom: solid #ddd;
+}

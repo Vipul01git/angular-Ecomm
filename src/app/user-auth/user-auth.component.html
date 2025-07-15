@@ -1,0 +1,64 @@
+ <div class="user-auth">
+
+ <div  *ngIf="showLogin"  class="signUp">
+  <h2 class="head"><b>User SignUp</b></h2>
+ <form #userSignUP="ngForm" (ngSubmit)="signUp(userSignUP.value)"  >
+  <div class="form-group">
+    <label for="name"></label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" ngModel>
+  </div>
+
+  <div class="form-group">
+    <label for="email"></label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" ngModel>
+     <!-- #signupEmail="ngModel" required email>
+    <p class="invalid-input" *ngIf="signupEmail.invalid && signupEmail.touched">Please enter correct email</p> -->
+  </div>
+
+  <div class="form-group">
+    <label for="password"></label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" ngModel>
+     <!-- #signupPassword="ngModel" required minlength="5" maxlength="20">
+    <p class="invalid-input" *ngIf="signupPassword.invalid && signupPassword.touched">Password should be min 8 word</p> -->
+
+  </div>
+ 
+
+  <button [disabled]="userSignUP.invalid" class="form-button" type="submit">Sign Up</button>
+
+  <a class="auth-toggle-link" (click)="openLogin()">Already have Account? <b>click</b> to login</a>
+
+ </form>
+ </div>
+
+
+
+
+  <div  *ngIf="!showLogin"  class="signUp">
+  <h2 class="head"><b>User LogIn</b></h2>
+ <form #userLogin="ngForm" (ngSubmit)="login(userLogin.value)"  >
+
+   <p class="error-p">{{authError}}</p>
+
+  <div class="form-group">
+    <label for="email"></label>
+    <input type="email" id="login-email" name="email" placeholder="Enter your email" ngModel>
+     <!-- #loginEmail="ngModel" required email>
+    <p class="invalid-input" *ngIf="loginEmail.invalid && loginEmail.touched">Please enter correct email</p> -->
+  </div>
+
+  <div class="form-group">
+    <label for="password"></label>
+    <input type="password" id="login-password" name="password" placeholder="Enter your password" ngModel>
+     <!-- #loginPassword="ngModel" required minlength="5" maxlength="20">
+    <p class="invalid-input" *ngIf="loginPassword.invalid && loginPassword.touched">Please enter correct password</p> -->
+  </div>
+ 
+
+   <button  class="form-button" type="submit">logIn</button>   <!--[disabled]="userLogin.invalid" -->
+
+    <a class="auth-toggle-link" (click)="openSignup()"><b>click</b> here to creat new account</a>
+
+ </form>
+ </div>
+</div>

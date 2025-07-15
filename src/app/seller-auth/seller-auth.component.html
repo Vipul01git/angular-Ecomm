@@ -1,0 +1,64 @@
+
+
+ 
+ <div class="seller-auth">
+
+ <div *ngIf="!showLogice" class="signUp">
+  <h2 class="head"><b>Seller SignUp</b></h2>
+ <form #sellerSignUP="ngForm" (ngSubmit)="signUp(sellerSignUP.value)"  >
+  <div class="form-group">
+    <label for="name"></label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" ngModel>
+  </div>
+
+  <div class="form-group">
+    <label for="email"></label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" ngModel #signupEmail="ngModel" required email>
+    <p class="invalid-input" *ngIf="sellerSignUP.invalid && sellerSignUP.touched">Please enter correct email</p>
+  </div>
+
+  <div class="form-group">
+    <label for="password"></label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" ngModel #signupPassword="ngModel" required minlength="8" maxlength="20">
+    <p class="invalid-input" *ngIf="sellerSignUP.invalid && sellerSignUP.touched">Password should be min 8 word</p>
+  </div>
+ 
+
+  <button [disabled]="sellerSignUP.invalid" class="form-button" type="submit">Sign Up</button>
+
+  <a class="auth-toggle-link" (click)="openLogin()">Already have Account? <b>click</b> to login</a>
+
+ </form>
+ </div>
+
+
+  <div *ngIf="showLogice" class="logIn">
+    <h2 class="head"><b>Seller LogIn</b></h2>
+
+    <p class="error-p" >{{authError}}</p>
+
+ <form #sellerSignUP="ngForm" (ngSubmit)="login(sellerSignUP.value)"  >
+
+  <div class="form-group">
+    <label for="email"></label>
+    <input type="email" id="login-email" name="email" placeholder="Enter your email" ngModel>
+     <!-- #loginEmail="ngModel" required email>
+    <p class="invalid-input" *ngIf="sellerSignUP.invalid && sellerSignUP.touched">Please enter correct email</p> -->
+  </div>
+
+  <div class="form-group">
+    <label for="password"></label>
+    <input type="password" id="login-password" name="password" placeholder="Enter your password" ngModel>
+     <!-- #loginPassword="ngModel" required minlength="5" maxlength="20">
+    <p class="invalid-input" *ngIf="sellerSignUP.invalid && sellerSignUP.touched">Please enter correct password</p> -->
+  </div>
+ 
+
+   <button  class="form-button" type="submit">logIn</button>  <!--[disabled]="sellerSignUP.invalid" -->
+    <a class="auth-toggle-link" (click)="openSignup()">Don't have Account? <b>click</b> to SignUp</a>
+
+ </form>
+ </div>
+ </div>
+
+ 
