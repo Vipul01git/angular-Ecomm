@@ -1,3 +1,4 @@
+<!-- <<<<<<< HEAD
 # EcomPrjct
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
@@ -57,3 +58,17 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# angular-Ecomm
+>>>>>>> a51421511bc6e9ccffab73919c0d66738686d6a0 -->
+
+# angular-Ecomm
+
+This Angular ecommerce project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
+
+## 🚀 Development Server
+
+To start a local development server, run:
+
+```bash
+ng serve
